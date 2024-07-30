@@ -1,0 +1,24 @@
+{
+  "name": "jwt-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server1" : "nodemon server1.js",
+    "server2" : "nodemon server2.js",
+    "server3" : "nodemon server3.js",
+    "server4" : "nodemon server4.js",
+    "test": "echo \"Everyting work Fine\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

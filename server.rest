@@ -1,0 +1,51 @@
+POST http://localhost:5000/generatetoken
+Content-Type: application/json
+
+{
+    "clientName": "Kyle",
+    "clientEmail": "kyle@gmail.com"
+}
+
+
+###
+POST http://localhost:5000/generatejwt
+Content-Type: application/json
+
+{
+    "clientName": "Kyle",
+    "clientEmail": "kyle@gmail.com"
+}
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "lig10",
+    "password": "changeme"
+}
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "myguest",
+    "password": "changeme"
+}
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Kyle",
+    "password": "changeme"
+}
+
+###
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibXlndWVzdCIsInJvbGUiOiJndWVzdCIsImlhdCI6MTcyMjM0MDU0MH0.IPz2MrI6_q3b_Ek-0dKco8cR86Lgr_FtIlmS_BOoHkY
